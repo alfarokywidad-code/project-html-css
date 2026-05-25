@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2% 4%;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #2a485e;
+    font-size: 100%;
+    font-weight: 700;
+}
+
+/* dropdown hidden */
+.dropdown-menu {
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    min-width: 180px;
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.dropdown-menu li {
+    padding: 10px;
+
+}
+
+.dropdown-menu a {
+    color: black;
+    font-weight: 200;
+    font-size: 90%;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: flex;
+}
+
+.btn-header {
+    border: none;
+    padding: 1% 2% 1% 2%;
+    font-weight: bold;
+    border-radius: 23px;
+    color: white;
+    background: #2fb1b0;
+}
+
+.hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .hamburger {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+
+    }
+}
+
+/* !this is hero section */
+.sec1 {
+    padding: 3% 3%;
+    margin: 0 9%;
+    border-radius: 15px;
+    background:
+        linear-gradient(rgb(166, 230, 229), rgb(229, 247, 245));
+    /* background-color: #2fb1b0; */
+}
+
+.container-hero1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images-hero {
+    display: flex;
+    width: 45%;
+    gap: 15px;
+
+}
+
+.images-hero img {
+    border-radius: 15px;
+}
+
+.img1 {
+    display: flex;
+    padding-left: 20%;
+    padding-bottom: 4%;
+}
+
+.img2 {
+    padding-top: 13%;
+    padding-bottom: 4%;
+}
+
+.smal-title {
+    color: #3ebbb9;
+}
+
+.content h1 {
+    color: #1e3d52;
+    font-size: 3rem;
+    font-weight: 550;
+    padding-bottom: 3%;
+    padding-top: 2%;
+}
+
+.para1 {
+    color: gray;
+
+    padding-bottom: 1%;
+}
+
+.para2 {
+    color: gray;
+    line-height: 1.7;
+    padding-bottom: 4%;
+}
+
+.btn1-hero {
+    border: none;
+    padding: 2% 3% 2% 3%;
+    font-weight: bold;
+    border-radius: 23px;
+    color: white;
+    background: #2fb1b0;
+    cursor: pointer;
+
+}
+
+.reviews {
+    margin-top: 4%;
+    width: 90%;
+    padding-top: 4%;
+    color: #597585;
+    border-top: 1px solid gray;
+    display: flex;
+    gap: 12px;
+    font-weight: bold;
+}
+
+.color {
+    color: #fec42c;
+}
+
+/* !this is div for expertise */
+.expertise {
+    width: 100%;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.expertise h2 {
+    padding-bottom: 2rem;
+    color: #325360;
+}
+
+.container-expertise {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+    font-size: 0.95rem;
+    color: gray;
+}
+
+.smal-info {
+    color: #325360;
+
+}
+
+.bar {
+    /* width: 100%; */
+    height: 0.4rem;
+    background-color: #ddd;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    border-radius: 50px;
+    background-color: #2fb1b0;
+
+}
+
+.w95 {
+    width: 95%;
+}
+
+.w90 {
+    width: 90%;
+}
+
+.w85 {
+    width: 85%;
+}
+
+.w80 {
+    width: 80%;
+}
+
+.w75 {
+    width: 75%;
+}
+
+.w92 {
+    width: 92%;
+}
