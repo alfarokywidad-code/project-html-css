@@ -77,15 +77,51 @@ body {
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+
+/* ===== Tablet ===== */
+@media (max-width: 800px) {
+
+    header {
+        justify-content: space-between;
+        padding: 3% 5%;
+    }
+
+    .menu {
+        gap: 15px;
+    }
+
+    .menu a {
+        font-size: 0.9rem;
+    }
+
+    .btn-header {
+        padding: 10px 18px;
+    }
+}
+
+
+/* ===== Mobile ===== */
+@media (max-width: 700px) {
+
+    header {
+        justify-content: space-between;
+        padding: 4% 5%;
+    }
 
     .hamburger {
         display: block;
     }
 
-    .menu {
+    .navigation {
         display: none;
+    }
 
+    .btn-header {
+        display: none;
+    }
+
+    header img {
+        width: 140px;
     }
 }
 
@@ -96,7 +132,6 @@ body {
     border-radius: 15px;
     background:
         linear-gradient(rgb(166, 230, 229), rgb(229, 247, 245));
-    /* background-color: #2fb1b0; */
 }
 
 .container-hero1 {
