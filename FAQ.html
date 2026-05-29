@@ -4,19 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./public/CSS/contact.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/754a3808be.js" crossorigin="anonymous"></script>
     <title>Document</title>
+    <link rel="stylesheet" href="./public/CSS/FAQ.css">
+    <script src="https://kit.fontawesome.com/754a3808be.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <!-- todo header -->
     <header class="header">
         <img src="https://madebydesignesia.com/themes/optilux/images/logo-dark.webp" alt="" width="170">
         <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
@@ -73,75 +66,77 @@
         <button class="btn-header">Book Your Visit</button>
 
     </header>
-    <!-- todo main -->
     <main>
-        <!-- ?Hero Section -->
+        <!-- !Hero Section -->
         <section class="hero">
-            <div class="hero-content">
-                <h1>Contact Us</h1>
-                <div class="breadcrumb">
-                    <a href="home.html">Home</a>
-                    <span><i class="fa-solid fa-chevron-right"></i></span>
-                    <span>Contact Us</span>
-                </div>
+            <h1>FAQ</h1>
+            <div class="breadcrumb">
+                <a href="home.html">Home</a>
+                <span><i class="fa-solid fa-chevron-right"></i>
+                </span> FAQs
             </div>
         </section>
 
-        <!-- ?Contact Section -->
-        <section class="contact-section">
-            <div class="container">
+        <!-- !FAQ Section -->
+        <section class="faq-section">
+            <div class="faq-content">
 
-                <!--? Contact Info -->
-                <div class="contact-info">
+                <div class="tabs">
+                    <button class="tab active">Appointments & Exams</button>
+                    <button class="tab">Treatments & Procedures</button>
+                    <button class="tab">Insurance & Payments</button>
+                </div>
 
-                    <div class="office">
-                        <h4>New York</h4>
-                        <p>100 S Main St, New York, NY 10001</p>
-                        <p>(212) 555-0199</p>
-                        <p>contact@optilux-ny.com</p>
+                <div class="faq-list">
+
+                    <div class="faq-item">
+                        <p class="faq-question">
+                            How do I book an appointment?
+                            <i class="fa-solid fa-chevron-down icon-faq"></i>
+                        </p>
                     </div>
 
-                    <div class="office">
-                        <h4>Los Angeles</h4>
-                        <p>742 S Olive St, Los Angeles, CA 90014</p>
-                        <p>(310) 555-0147</p>
-                        <p>contact@optilux-la.com</p>
+                    <div class="faq-item">
+                        <p class="faq-question">
+                            Do I need a referral to see an optometrist?
+                            <i class="fa-solid fa-chevron-down icon-faq"></i>
+                        </p>
                     </div>
 
-                    <div class="office">
-                        <h4>Chicago</h4>
-                        <p>780 W Madison St, Chicago, IL 60661</p>
-                        <p>(312) 555-0178</p>
-                        <p>ccontact@optilux-hi.com</p>
+                    <div class="faq-item">
+                        <p class="faq-question">
+                            How often should I have my eyes checked?
+                            <i class="fa-solid fa-chevron-down icon-faq"></i>
+                        </p>
                     </div>
 
-                    <div class="office">
-                        <h4>Miami</h4>
-                        <p>500 Ocean Dr, Miami, FL 33139</p>
-                        <p>(305) 555-0123</p>
-                        <p>miacontact@optilux-mi.com</p>
+                    <div class="faq-item">
+                        <p class="faq-question">
+                            How long does an eye exam take?
+                            <i class="fa-solid fa-chevron-down icon-faq"></i>
+                        </p>
+                    </div>
+
+                    <div class="faq-item">
+                        <p class="faq-question">
+                            What should I bring to my appointment?
+                            <i class="fa-solid fa-chevron-down icon-faq"></i>
+                        </p>
                     </div>
 
                 </div>
 
-                <!-- ?Contact Form -->
-                <div class="contact-form">
-                    <form>
-                        <input type="text" placeholder="Your Name">
-                        <input type="email" placeholder="Your Email">
-                        <input type="tel" placeholder="Your Phone">
-                        <textarea placeholder="Your Message"></textarea>
-                        <button type="submit">Send Message</button>
-                    </form>
-                </div>
+            </div>
 
+            <div class="faq-image">
+                <img src="https://madebydesignesia.com/themes/optilux/images/misc/s1.webp" alt="">
             </div>
         </section>
     </main>
     <!-- todo this is Footer -->
     <footer class="footer">
         <div class="footer-container">
-            <!-- ?Column 1 -->
+            <!-- Column 1 -->
             <div class="footer-col">
                 <div>
                     <img src="https://madebydesignesia.com/themes/optilux/images/logo-white.webp" alt="" width="170">
@@ -162,7 +157,7 @@
                 </div>
             </div>
 
-            <!-- ?Column 2 -->
+            <!-- Column 2 -->
             <div class="footer-col">
                 <h4>Services</h4>
 
@@ -176,7 +171,7 @@
                 </ul>
             </div>
 
-            <!-- ?Column 3 -->
+            <!-- Column 3 -->
             <div class="footer-col">
                 <h4>About Us</h4>
 
@@ -190,7 +185,7 @@
                 </ul>
             </div>
 
-            <!-- ?Column 4 -->
+            <!-- Column 4 -->
             <div class="footer-col">
                 <h4>Contact Us</h4>
 
