@@ -408,7 +408,18 @@ body {
     display: flex;
     gap: 24px;
 }
+.social .h {
+    background-color: #005461;
+    padding: 3%;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
+.social .h:hover {
+    background: #fff;
+    color: #333333;
+
+}
 .footer-contact {
     display: flex;
     flex-direction: column;
