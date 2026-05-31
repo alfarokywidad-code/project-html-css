@@ -68,8 +68,11 @@ body{
     border-radius: 23px;
     color: white;
     background: #2fb1b0;
+    cursor: pointer;
 }
-
+.btn-header:hover{
+    background-color: #0a2525;
+}
 .hamburger {
     display: none;
     font-size: 28px;
