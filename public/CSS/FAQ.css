@@ -70,7 +70,9 @@ body{
     color: white;
     background: #2fb1b0;
 }
-
+.btn-header:hover{
+    background-color: #0a2525;
+}
 .hamburger {
     display: none;
     font-size: 28px;
@@ -359,6 +361,9 @@ font-size: 13px;
     position: fixed;
     bottom: 20px;
 
+}
+.boto:hover {
+    transform: scale(1.08);
 }
 
 .icon-boto {

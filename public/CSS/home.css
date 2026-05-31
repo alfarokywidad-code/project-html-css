@@ -69,8 +69,15 @@ body {
     border-radius: 23px;
     color: white;
     background: #2fb1b0;
+    cursor: pointer;
+    
 }
 
+.btn-header:hover{
+    /* transform: translateY(-16px); */
+    /* opacity: 0; */
+    background-color: #0a2525;
+}
 .hamburger {
     display: none;
     font-size: 28px;
@@ -401,14 +408,12 @@ body {
 .services-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 38px;
+    gap: 70px 30px;
 }
 
 .service-card {
     position: relative;
     min-height: 260px;
-
-
 }
 
 .service-card img {
@@ -429,7 +434,7 @@ body {
             rgb(46, 176, 168),
             rgb(122, 210, 211, 0.01));
     z-index: 2;
-
+    cursor: pointer;
 }
 
 
@@ -437,7 +442,7 @@ body {
     position: absolute;
     left: 10%;
     right: 10%;
-    top: 180px;
+    top: 160px;
     bottom: 0;
     background: #fff;
     padding: 20px 20px 20px 20px;
@@ -1337,6 +1342,10 @@ textarea {
     bottom: 20px;
 
 }
+.boto:hover {
+    transform: scale(1.08);
+}
+
 .icon-boto{
     font-size: 0.8rem;
     font-weight: 550;

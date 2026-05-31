@@ -422,6 +422,9 @@ body{
     bottom: 20px;
 
 }
+.boto:hover {
+    transform: scale(1.08);
+}
 
 .icon-boto {
     font-size: 0.8rem;
