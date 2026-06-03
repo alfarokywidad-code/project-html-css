@@ -74,10 +74,10 @@ body {
     font-size: 14px;
     position: relative;
     overflow: hidden;
-    
+
 }
 
-.btn-header::before{
+.btn-header::before {
     content: "Book Your Visit";
     width: 100%;
     height: 100%;
@@ -87,14 +87,16 @@ body {
     color: white;
     transform: translateY(0);
     transition: transform 0.5s ease;
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-.btn-header:hover::before{
+
+.btn-header:hover::before {
     transform: translateY(100%);
 }
-.btn-header::after{
+
+.btn-header::after {
     content: "Book Your Visit";
     width: 100%;
     display: flex;
@@ -107,15 +109,18 @@ body {
     transform: translateY(-100%);
     color: white;
     transition: transform 0.5s ease;
-   
+
 }
-.btn-header:hover::after{
+
+.btn-header:hover::after {
     transform: translateY(0);
-    
+
 }
-.btn-header:hover{
+
+.btn-header:hover {
     background: #025656;
 }
+
 .hamburger {
     display: none;
     font-size: 28px;
@@ -124,11 +129,11 @@ body {
 
 
 /* ===== Tablet ===== */
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
 
-    header {
+    .header {
         justify-content: space-between;
-        padding: 3% 5%;
+        padding: 3% 4%;
     }
 
     .menu {
@@ -136,11 +141,12 @@ body {
     }
 
     .menu a {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 
     .btn-header {
-        padding: 10px 18px;
+        padding: 4px 10px;
+        font-size: 10px;
     }
 }
 
@@ -148,7 +154,7 @@ body {
 /* ===== Mobile ===== */
 @media (max-width: 700px) {
 
-    header {
+    .header {
         justify-content: space-between;
         padding: 4% 5%;
     }
@@ -465,11 +471,11 @@ body {
     transition: transform 0.9s ease;
     z-index: 1;
 }
-.service-card:hover img{
+
+.service-card:hover img {
     transform: scale(1.1);
-   
-    
 }
+
 .service-card::before {
     content: "";
     overflow: hidden;
@@ -542,9 +548,17 @@ body {
         font-size: 42px;
     }
 
+    .card-content h3 {
+        font-size: 14px;
+    }
+
+    .card-content p {
+        font-size: 10px;
+    }
+
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
 
     .services-grid {
         grid-template-columns: 1fr;
@@ -552,6 +566,12 @@ body {
 
     .section-title h2 {
         font-size: 34px;
+    }
+
+    .card-content {
+        margin: 0;
+        top: 70px;
+
     }
 
     .card-content h3 {
@@ -758,6 +778,31 @@ body {
     object-fit: cover;
 }
 
+/* Mobile */
+@media (max-width: 700px) {
+    .sec-about {
+        flex-direction: column;
+
+    }
+
+    .left-about {
+        width: 100%;
+    }
+
+    .content-about {
+        padding-left: 2px;
+    }
+
+    .content-about h2 {
+        font-size: 20px;
+    }
+
+    .right-about {
+        width: 100%;
+
+    }
+}
+
 /* !five section */
 
 .appointment {
@@ -870,6 +915,7 @@ textarea {
 
     .left-appointment h2 {
         font-size: 2rem;
+        padding-top: 100px;
     }
 
     .row {
@@ -1257,6 +1303,7 @@ textarea {
     font-size: 40px;
     text-decoration: none;
 }
+
 /* !div cta */
 .cta {
     background: #00b7b5;
@@ -1329,13 +1376,16 @@ textarea {
     text-decoration: none;
     color: #bfd4d4;
 }
-.footer-col a:hover{
+
+.footer-col a:hover {
     color: #00a8a8;
 }
+
 .social {
     display: flex;
     gap: 24px;
 }
+
 .social .h {
     background-color: #005461;
     padding: 3%;
@@ -1348,6 +1398,7 @@ textarea {
     color: #333333;
 
 }
+
 .contact-info {
     display: flex;
     flex-direction: column;
@@ -1363,9 +1414,11 @@ textarea {
 .contact-info span {
     color: #bfd4d4;
 }
-.icon-contact{
+
+.icon-contact {
     color: #00b7b5;
 }
+
 /* Bottom Footer */
 
 .footer-bottom {
@@ -1374,7 +1427,7 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: space-between;
- color: #bfd4d4;
+    color: #bfd4d4;
     padding: 0 80px;
 }
 
@@ -1387,6 +1440,7 @@ textarea {
     text-decoration: none;
     color: #bfd4d4;
 }
+
 .boto {
     right: 20px;
     background-color: #00b7b5;
@@ -1394,17 +1448,18 @@ textarea {
     padding: 10px 12px;
     /* width: 45px; */
     color: white;
-    
+
     cursor: pointer;
     position: fixed;
     bottom: 20px;
 
 }
+
 .boto:hover {
     transform: scale(1.08);
 }
 
-.icon-boto{
+.icon-boto {
     font-size: 0.8rem;
     font-weight: 550;
 

@@ -133,22 +133,23 @@ body {
 /* ===== Tablet ===== */
 @media (max-width: 800px) {
 
-    header {
+  .header {
         justify-content: space-between;
         padding: 3% 5%;
-        gap: 10px;
+
     }
 
     .menu {
-        gap: 24px;
+        gap: 15px;
     }
 
     .menu a {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 
     .btn-header {
-        padding: 2px 25px;
+        padding: 4px 10px;
+        font-size: 10px;
     }
 }
 

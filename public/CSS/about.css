@@ -122,9 +122,10 @@
 /* ===== Tablet ===== */
 @media (max-width: 800px) {
 
-    .header {
+  .header {
         justify-content: space-between;
         padding: 3% 5%;
+
     }
 
     .menu {
@@ -132,14 +133,14 @@
     }
 
     .menu a {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 
     .btn-header {
-        padding: 10px 18px;
+        padding: 4px 10px;
+        font-size: 10px;
     }
 }
-
 
 /* ===== Mobile ===== */
 @media (max-width: 700px) {
