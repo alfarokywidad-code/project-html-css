@@ -160,8 +160,10 @@ body {
     }
 
     .hamburger {
-        display: block;
+        display: flex;
+
     }
+
 
     .navigation {
         display: none;
@@ -170,8 +172,7 @@ body {
     .btn-header {
         display: none;
     }
-
-    header img {
+    .header img {
         width: 140px;
     }
 }
@@ -1249,6 +1250,7 @@ textarea {
     position: relative;
     overflow: hidden;
     cursor: pointer;
+    transition: transform 0.9s ease;
 }
 
 .video-box img {
@@ -1257,7 +1259,9 @@ textarea {
 
 }
 
-.video-box:hover img {}
+.video-box:hover img {
+    transform: scale(1.2);
+}
 
 .play-btn {
     position: absolute;
